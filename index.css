@@ -3,7 +3,8 @@ body {
 }
 
 @font-face{
-    
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    src: 'http://fonts.cdnfonts.com/css/cursed-timer-ulil';
 }
 
 h3{
@@ -35,6 +36,14 @@ h3{
     background-color: black;
     height: 6rem;
     width: 7rem;
+    justify-content: space-between;
+    font-family: 'Cursed Timer ULiL';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-top: 5px;
+    color: #F94F6D;
 }
 
 .buttons{
@@ -52,4 +61,10 @@ h3{
     width: 2rem;
     height: 2rem;
     border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    padding-top: 4px;
+}
+
+.button:hover{
+    cursor: pointer;
 }
